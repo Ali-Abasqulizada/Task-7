@@ -1,0 +1,56 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+ul#main{
+    margin-top: 40px;
+    border-top-left-radius:10px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul#main li{
+    float: left;
+    position: relative;
+    width: 150px;
+}
+ul#main li ul{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+}
+ul li a{
+    display: block;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(0, 136, 182);
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: rgb(4, 90, 119);
+}
+ul#main li:hover ul{
+    display: block;
+    animation: box 0.1s linear;
+}
+@keyframes box {
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+#x > a{
+    border-top-left-radius:10px;
+}
+#y > a{
+    border-top-right-radius:10px;
+}

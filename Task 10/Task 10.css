@@ -1,0 +1,50 @@
+body{
+    background-color:goldenrod;
+}
+h1{
+    text-align: center;
+}
+#div{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.div1{
+    background-color:darkcyan;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    transition-duration: 0.5s;
+}
+.div2{
+    background-color:darkcyan;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    transition-duration: 0.5s;
+}
+.div3{
+    background-color:darkcyan;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    transition-duration: 0.5s;
+}
+.div1:hover{
+    transform:rotateX(500deg) ;
+}
+.div2:hover{
+    transform:rotateY(360deg) ;
+}
+.div3:hover{
+    transform:rotateZ(150deg) ;
+}

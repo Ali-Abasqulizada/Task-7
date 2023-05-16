@@ -1,0 +1,41 @@
+p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.Animated{
+    border: 2px solid blue;
+    height: 100px;
+    width: 700px;
+}
+.box1{
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    animation: box1 3s ease;
+}
+.box2{
+    animation-timing-function: step-end;
+    animation: box1 3s ease;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+}
+@keyframes box1 {
+    0%{
+        width: 300px;
+    }
+    33%{
+        width: 400px;
+    }
+    66%{
+        width: 200px;
+    }
+    100%{
+        width: 300px;
+    }
+}
+.Notanimated{
+    border: 2px solid blue;
+    height: 100px;
+    width: 700px;
+}

@@ -1,0 +1,40 @@
+h1{
+    color: green;
+}
+#p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.p{
+    font-size: 40px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid black;
+    transform: skewX(-10deg);
+    height: 50px;
+}
+.p:hover{
+    animation: p 0.3s linear;
+    color: green;
+    border: 2px solid green;
+}
+@keyframes p {
+    
+    0%{
+        transform: skewX(-10deg);
+    }
+    25%{
+        transform: skewX(10deg);
+    }
+    50%{
+        transform: skewX(-10deg);
+    }
+    75%{
+        transform: skewX(10deg);
+    }
+    100%{
+        transform: skewX(-10deg);
+    }
+}
